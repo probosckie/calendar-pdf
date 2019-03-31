@@ -85,7 +85,7 @@ var testData = [
 
 /*All date related functionality ---- start*/
 
-var lowestDate = testData.map(function(v,i){
+var lowestDate = testData.map(function(v,i){ 
 	return new Date(v.from);
 }).reduce(function(x,y){
 	return (+x <= +y)?x:y
